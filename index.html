@@ -4,44 +4,54 @@
     <meta charset="UTF-8">
     <title>Wairokpam Malemnganba Chenglei</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <style>
         body {
             font-family: Georgia, serif;
-            max-width: 800px;
+            max-width: 1100px;
             margin: 40px auto;
             line-height: 1.7;
             color: #222;
-            padding: 0 15px;
+            padding: 0 20px;
         }
+
         h1, h2 {
             color: #1a1a1a;
         }
+
         h1 {
             border-bottom: 2px solid #444;
             padding-bottom: 10px;
             text-align: center;
         }
+
         h2 {
             margin-top: 40px;
             border-bottom: 1px solid #ccc;
             padding-bottom: 5px;
         }
+
         ul {
             margin-top: 10px;
         }
+
         a {
             color: #1a73e8;
             text-decoration: none;
         }
+
         a:hover {
             text-decoration: underline;
         }
+
         .section {
             margin-top: 30px;
         }
+
         .contact-links a {
             margin-right: 15px;
         }
+
         .profile-pic {
             display: block;
             margin: 0 auto 20px auto;
@@ -50,8 +60,49 @@
             border-radius: 50%;
             object-fit: cover;
         }
+
+        /* PUBLIC DOCUMENTS LAYOUT */
+
+        .public-layout {
+            display: flex;
+            justify-content: space-between;
+            gap: 40px;
+            margin-top: 20px;
+        }
+
+        .public-left {
+            width: 70%;
+        }
+
+        .public-right {
+            width: 30%;
+        }
+
+        .public-right details {
+            margin-bottom: 15px;
+            background: #f4f4f4;
+            padding: 12px;
+            border-radius: 6px;
+        }
+
+        .public-right summary {
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+        @media (max-width: 768px) {
+            .public-layout {
+                flex-direction: column;
+            }
+
+            .public-left,
+            .public-right {
+                width: 100%;
+            }
+        }
     </style>
 </head>
+
 <body>
 
 <!-- Profile Photo -->
@@ -59,15 +110,12 @@
     <img src="profile.jpeg" alt="Wairokpam Malemnganba Chenglei" class="profile-pic">
 </div>
 
-<!-- Name -->
 <h1>Wairokpam Malemnganba Chenglei</h1>
 
-<!-- Short Bio -->
 <p style="text-align: center;">
     Indian Administrative Service (IAS) | Governance | Public Policy | Public Finance | Data & Economic Analysis
 </p>
 
-<!-- About -->
 <div class="section">
     <h2>About</h2>
     <p>
@@ -75,46 +123,16 @@
     </p>
 </div>
 
-<!-- Education -->
 <div class="section">
     <h2>Education</h2>
     <ul>
-        <li>MA in Public Policy with Certificate in Research Methods (MACRM) – Harris School of Public Policy, University of Chicago</li>
+        <li>MA in Public Policy (MACRM) – Harris School of Public Policy, University of Chicago</li>
         <li>Master of Public Administration (MPA) – London School of Economics</li>
-        <li>Master of Science (MSc) in Physics – St. Stephen's College, University of Delhi</li>
-        <li>Bachelor of Science (Honours) in Physics – St. Stephen's College, University of Delhi</li>
+        <li>MSc in Physics – St. Stephen's College, University of Delhi</li>
+        <li>BSc (Hons) Physics – St. Stephen's College, University of Delhi</li>
     </ul>
 </div>
 
-<!-- Scholarships and Fellowships -->
-<div class="section">
-    <h2>Scholarships and Fellowships</h2>
-    <ul>
-        <li>Joint Japan Graduate World Bank Scholar</li>
-        <li>Harris School of Public Policy, University of Chicago</li>
-        <li>CSIR JRF NET in Physics</li>
-    </ul>
-</div>
-
-<!-- Teaching Experience -->
-<div class="section">
-    <h2>Teaching Experience</h2>
-    <ul>
-        <li>Teaching Assistant (MPP Level Microeconomics), Harris School of Public Policy, University of Chicago</li>
-        <li>Grader (PhD Level Microeconomics), Harris School of Public Policy, University of Chicago</li>
-        <li>Lecturer, Kirori Mal College, University of Delhi</li>
-    </ul>
-</div>
-
-<!-- Publications -->
-<div class="section">
-    <h2>Publications</h2>
-    <ul>
-        <li>CSIR UGC Physical Sciences – Arihant Publications</li>
-    </ul>
-</div>
-
-<!-- Professional Experience -->
 <div class="section">
     <h2>Professional Experience</h2>
     <ul>
@@ -122,111 +140,83 @@
         <li>Deputy Commissioner, Jiribam</li>
         <li>Director, Higher & Technical Education</li>
         <li>Managing Director, Manipur State Power Distribution Company Ltd.</li>
-        <li>Registrar, Manipur Technical University (MTU)</li>
+        <li>Registrar, Manipur Technical University</li>
     </ul>
 </div>
 
-<!-- Public Documents -->
-    <style>
-.public-layout {
-  display: flex;
-  gap: 40px;
-  align-items: flex-start;
-}
-
-.public-left {
-  flex: 2;   /* takes more width */
-}
-
-.public-right {
-  flex: 1;   /* folders column */
-}
-
-.public-right details {
-  margin-bottom: 15px;
-  background: #f4f4f4;
-  padding: 10px;
-  border-radius: 6px;
-}
-
-@media (max-width: 768px) {
-  .public-layout {
-    flex-direction: column; /* stack on mobile */
-  }
-}
-</style>
+<!-- PUBLIC DOCUMENTS -->
 <div class="section">
-  <h2>Public Documents</h2>
+    <h2>Public Documents</h2>
 
-  <div class="public-layout">
+    <div class="public-layout">
 
-    <!-- LEFT SIDE: Main Documents -->
-    <div class="public-left">
-      <ul>
-        <li><a href="ROP_2019.pdf" target="_blank">RoP 2019</a></li>
-        <li><a href="Economic_Survey_2025-26.pdf" target="_blank">Economic Survey 2025-26</a></li>
-        <li><a href="Handbook_Statistics_Indian_States_2024-25.pdf" target="_blank">Handbook of Statistics of Indian States 2024-25</a></li>
-        <li><a href="16 FC Volume I.pdf" target="_blank">16 Finance Commission Volume I</a></li>
-        <li><a href="16 FC Volume II.pdf" target="_blank">16 Finance Commission Volume II</a></li>
-        <li><a href="Economic_Survey_Manipur_2022-23.pdf" target="_blank">Economic Survey Manipur 2022-23</a></li>
-        <li><a href="Economic_Survey_Manipur_2023-24.pdf" target="_blank">Economic Survey Manipur 2023-24</a></li>
-        <li><a href="Guidance_RFP_PPP.pdf" target="_blank">Model Guidance RFP for PPP</a></li>
-      </ul>
+        <!-- LEFT COLUMN -->
+        <div class="public-left">
+            <ul>
+                <li><a href="ROP_2019.pdf" target="_blank">RoP 2019</a></li>
+                <li><a href="Economic_Survey_2025-26.pdf" target="_blank">Economic Survey 2025-26</a></li>
+                <li><a href="Handbook_Statistics_Indian_States_2024-25.pdf" target="_blank">Handbook of Statistics of Indian States 2024-25</a></li>
+                <li><a href="16 FC Volume I.pdf" target="_blank">16 Finance Commission Volume I</a></li>
+                <li><a href="16 FC Volume II.pdf" target="_blank">16 Finance Commission Volume II</a></li>
+                <li><a href="Economic_Survey_Manipur_2022-23.pdf" target="_blank">Economic Survey Manipur 2022-23</a></li>
+                <li><a href="Economic_Survey_Manipur_2023-24.pdf" target="_blank">Economic Survey Manipur 2023-24</a></li>
+                <li><a href="Guidance_RFP_PPP.pdf" target="_blank">Model Guidance RFP for PPP</a></li>
+            </ul>
+        </div>
+
+        <!-- RIGHT COLUMN -->
+        <div class="public-right">
+
+            <details>
+                <summary>State Finances 2025-26</summary>
+                <ul>
+                    <li><a href="State_Finances_2025-26/Dashbord_ Master data 2022-23NoEdit(A1.csv)">Non-Debt Capital Receipts</a></li>
+                    <li><a href="State_Finances_2025-26/Dashbord_ Master data 2022-23NoEdit(A2_Rev Receipt).csv)">Revenue Receipts</a></li>
+                    <li><a href="State_Finances_2025-26/Dashbord_ Master data 2022-23NoEdit(A3_Cap Receipts Components).csv)">Capital Receipts</a></li>
+                </ul>
+            </details>
+
+            <details>
+                <summary>OM FD(PIC)</summary>
+                <ul>
+                    <li><a href="OM_FD(PIC)/UPS_Notification_Manipur.pdf" target="_blank">UPS Notification</a></li>
+                    <li><a href="OM_FD(PIC)/DA_17_October_2025.pdf" target="_blank">3% DA Increase 2025</a></li>
+                </ul>
+            </details>
+
+            <details>
+                <summary>OM FD(Resources)</summary>
+                <ul>
+                    <li><a href="SNA_SPARSH/OM_SNA_SPARSH_MANIPUR.pdf" target="_blank">OM SNA SPARSH</a></li>
+                </ul>
+            </details>
+
+            <details>
+                <summary>OM FD(Budget)</summary>
+                <ul>
+                    <li><a href="FD_Budget/OM_Online_Pension_Portal_December_2025.pdf" target="_blank">Online Pension Portal</a></li>
+                </ul>
+            </details>
+
+            <details>
+                <summary>OM FD(Expenditure)</summary>
+                <ul>
+                    <li><a href="FD_Expenditure/Guidance_RFP_PPP.pdf" target="_blank">Guidance RFP on PPP</a></li>
+                </ul>
+            </details>
+
+        </div>
+
     </div>
 
-    <!-- RIGHT SIDE: Folders -->
-    <div class="public-right">
-
-      <details>
-        <summary><strong>State Finances 2025-26</strong></summary>
-        <ul>
-          <li><a href="State_Finances_2025-26/Dashbord_ Master data 2022-23NoEdit(A1.csv)">Non-Debt Capital Receipts</a></li>
-          <li><a href="State_Finances_2025-26/Dashbord_ Master data 2022-23NoEdit(A2_Rev Receipt).csv">Revenue Receipts</a></li>
-          <li><a href="State_Finances_2025-26/Dashbord_ Master data 2022-23NoEdit(A3_Cap Receipts Components).csv">Capital Receipts</a></li>
-        </ul>
-      </details>
-
-      <details>
-        <summary><strong>OM FD(PIC)</strong></summary>
-        <ul>
-          <li><a href="OM_FD(PIC)/UPS_Notification_Manipur.pdf" target="_blank">UPS Notification</a></li>
-          <li><a href="OM_FD(PIC)/DA_17_October_2025.pdf" target="_blank">3% DA Increase 2025</a></li>
-        </ul>
-      </details>
-
-      <details>
-        <summary><strong>OM FD(Resources)</strong></summary>
-        <ul>
-          <li><a href="SNA_SPARSH/OM_SNA_SPARSH_MANIPUR.pdf" target="_blank">OM SNA SPARSH</a></li>
-        </ul>
-      </details>
-
-      <details>
-        <summary><strong>OM FD(Budget)</strong></summary>
-        <ul>
-          <li><a href="FD_Budget/OM_Online_Pension_Portal_December_2025.pdf" target="_blank">Online Pension Portal</a></li>
-        </ul>
-      </details>
-
-      <details>
-        <summary><strong>OM FD(Expenditure)</strong></summary>
-        <ul>
-          <li><a href="FD_Expenditure/Guidance_RFP_PPP.pdf" target="_blank">Guidance RFP on PPP</a></li>
-        </ul>
-      </details>
-
-    </div>
-
-  </div>
-
-  <br>
-  <a href="https://ebudgetmanipur.mn.gov.in/" target="_blank">
-    Visit ebudgetmanipur
-  </a>
+    <br>
+    <a href="https://ebudgetmanipur.mn.gov.in/" target="_blank">
+        Visit ebudgetmanipur
+    </a>
 
 </div>
-    
-<!-- Contact -->
+
+<!-- CONTACT -->
 <div class="section">
     <h2>Contact</h2>
     <p>Email: <a href="mailto:w.m.chenglei@gmail.com">w.m.chenglei@gmail.com</a></p>

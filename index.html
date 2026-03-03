@@ -1,255 +1,249 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Wairokpam Malemnganba Chenglei</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8">
+<title>Wairokpam Malemnganba Chenglei</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <style>
-        body {
-            font-family: "Georgia", "Times New Roman", serif;
-            max-width: 1000px;
-            margin: 60px auto;
-            line-height: 1.75;
-            color: #111;
-            padding: 0 24px;
-            background-color: #ffffff;
-        }
+<style>
+body {
+    font-family: "Georgia", "Times New Roman", serif;
+    max-width: 1050px;
+    margin: 60px auto;
+    line-height: 1.75;
+    color: #111;
+    padding: 0 24px;
+    background-color: #ffffff;
+}
 
-        h1 {
-            font-size: 34px;
-            font-weight: normal;
-            letter-spacing: 0.5px;
-            text-align: center;
-            margin-bottom: 8px;
-        }
+h1 {
+    font-size: 34px;
+    font-weight: normal;
+    text-align: center;
+    margin-bottom: 8px;
+}
 
-        .subtitle {
-            text-align: center;
-            font-size: 15px;
-            color: #444;
-            margin-bottom: 40px;
-        }
+.subtitle {
+    text-align: center;
+    font-size: 15px;
+    color: #444;
+    margin-bottom: 50px;
+}
 
-        h2 {
-            font-size: 20px;
-            font-weight: normal;
-            margin-top: 50px;
-            border-bottom: 1px solid #000;
-            padding-bottom: 6px;
-        }
+h2 {
+    font-size: 20px;
+    font-weight: normal;
+    margin-top: 50px;
+    border-bottom: 1px solid #000;
+    padding-bottom: 6px;
+}
 
-        h3 {
-            font-size: 16px;
-            font-weight: normal;
-            margin-bottom: 10px;
-        }
+h3 {
+    font-size: 16px;
+    font-weight: normal;
+    margin-bottom: 8px;
+}
 
-        ul {
-            padding-left: 18px;
-        }
+ul {
+    padding-left: 18px;
+}
 
-        li {
-            margin-bottom: 6px;
-        }
+li {
+    margin-bottom: 6px;
+}
 
-        a {
-            color: #000;
-            text-decoration: none;
-            border-bottom: 1px solid #999;
-        }
+a {
+    color: #000;
+    text-decoration: none;
+    border-bottom: 1px solid #aaa;
+}
 
-        a:hover {
-            border-bottom: 1px solid #000;
-        }
+a:hover {
+    border-bottom: 1px solid #000;
+}
 
-        .profile-pic {
-            display: block;
-            margin: 0 auto 30px auto;
-            width: 160px;
-            height: 160px;
-            border-radius: 50%;
-            object-fit: cover;
-        }
+.profile-pic {
+    display: block;
+    margin: 0 auto 30px auto;
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    object-fit: cover;
+}
 
-        /* PUBLIC DOCUMENTS LAYOUT */
+/* Three Column Layout */
 
-        .public-layout {
-            display: flex;
-            justify-content: space-between;
-            gap: 50px;
-            margin-top: 30px;
-        }
+.public-layout {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    margin-top: 30px;
+}
 
-        .public-left {
-            width: 40%;
-        }
+.public-left { width: 38%; }
+.public-middle { width: 37%; }
+.public-right { width: 25%; }
 
-        .public-middle {
-            width: 35%;
-        }
+/* Clean dropdown */
 
-        .public-right {
-            width: 25%;
-        }
+details {
+    margin-bottom: 20px;
+}
 
-        /* Minimal dropdown styling */
+summary {
+    cursor: pointer;
+    font-size: 15px;
+}
 
-        details {
-            margin-bottom: 18px;
-        }
+details ul {
+    margin-top: 8px;
+}
 
-        summary {
-            cursor: pointer;
-            font-weight: normal;
-            font-size: 15px;
-        }
+/* Responsive */
 
-        details ul {
-            margin-top: 8px;
-        }
+@media (max-width: 950px) {
+    .public-layout {
+        flex-direction: column;
+    }
+    .public-left,
+    .public-middle,
+    .public-right {
+        width: 100%;
+    }
+}
 
-        /* Responsive */
+.contact {
+    margin-top: 40px;
+}
 
-        @media (max-width: 900px) {
-            .public-layout {
-                flex-direction: column;
-            }
-
-            .public-left,
-            .public-middle,
-            .public-right {
-                width: 100%;
-            }
-        }
-
-        .contact {
-            margin-top: 40px;
-        }
-
-        .contact a {
-            margin-right: 18px;
-        }
-    </style>
+.contact a {
+    margin-right: 20px;
+}
+</style>
 </head>
 
 <body>
 
-    <img src="profile.jpeg" alt="Wairokpam Malemnganba Chenglei" class="profile-pic">
+<img src="profile.jpeg" alt="Wairokpam Malemnganba Chenglei" class="profile-pic">
 
-    <h1>Wairokpam Malemnganba Chenglei</h1>
+<h1>Wairokpam Malemnganba Chenglei</h1>
 
-    <div class="subtitle">
-        Indian Administrative Service (IAS) | Governance | Public Policy | Public Finance | Data & Economic Analysis
-    </div>
+<div class="subtitle">
+Indian Administrative Service (IAS) | Governance | Public Policy | Public Finance | Data & Economic Analysis
+</div>
 
-    <h2>About</h2>
-    <p>
-        IAS officer with experience across district governance, higher education administration, 
-        and public financial management. Academic training in public policy, economics, and 
-        quantitative analysis.
-    </p>
+<h2>About</h2>
+<p>
+IAS officer with experience across district governance, higher education administration,
+and public financial management. Academic training in public policy, economics,
+and quantitative analysis.
+</p>
 
-    <h2>Education</h2>
-    <ul>
-        <li>MA in Public Policy (MACRM) – Harris School of Public Policy, University of Chicago</li>
-        <li>Master of Public Administration (MPA) – London School of Economics</li>
-        <li>MSc in Physics – St. Stephen's College, University of Delhi</li>
-        <li>BSc (Hons) Physics – St. Stephen's College, University of Delhi</li>
-    </ul>
+<h2>Education</h2>
+<ul>
+<li>MA in Public Policy (MACRM) – Harris School of Public Policy, University of Chicago</li>
+<li>Master of Public Administration (MPA) – London School of Economics</li>
+<li>MSc in Physics – St. Stephen's College, University of Delhi</li>
+<li>BSc (Hons) Physics – St. Stephen's College, University of Delhi</li>
+</ul>
 
-    <h2>Professional Experience</h2>
-    <ul>
-        <li>Secretary (Cooperation) & Special Secretary (Finance)</li>
-        <li>Deputy Commissioner, Jiribam</li>
-        <li>Director, Higher & Technical Education</li>
-        <li>Managing Director, Manipur State Power Distribution Company Ltd.</li>
-        <li>Registrar, Manipur Technical University</li>
-    </ul>
+<h2>Professional Experience</h2>
+<ul>
+<li>Secretary (Cooperation) & Special Secretary (Finance)</li>
+<li>Deputy Commissioner, Jiribam</li>
+<li>Director, Higher & Technical Education</li>
+<li>Managing Director, Manipur State Power Distribution Company Ltd.</li>
+<li>Registrar, Manipur Technical University</li>
+</ul>
 
-    <h2>Public Documents</h2>
+<h2>Public Documents</h2>
 
-    <div class="public-layout">
+<div class="public-layout">
 
-        <!-- LEFT COLUMN -->
-        <div class="public-left">
-            <ul>
-                <li><a href="ROP_2019.pdf" target="_blank">RoP 2019</a></li>
-                <li><a href="Economic_Survey_2025-26.pdf" target="_blank">Economic Survey 2025-26</a></li>
-                <li><a href="Handbook_Statistics_Indian_States_2024-25.pdf" target="_blank">Handbook of Statistics of Indian States 2024-25</a></li>
-                <li><a href="16 FC Volume I.pdf" target="_blank">16 Finance Commission Volume I</a></li>
-                <li><a href="16 FC Volume II.pdf" target="_blank">16 Finance Commission Volume II</a></li>
-                <li><a href="Economic_Survey_Manipur_2022-23.pdf" target="_blank">Economic Survey Manipur 2022-23</a></li>
-                <li><a href="Economic_Survey_Manipur_2023-24.pdf" target="_blank">Economic Survey Manipur 2023-24</a></li>
-            </ul>
-        </div>
+<!-- LEFT COLUMN -->
+<div class="public-left">
+<ul>
+<li><a href="ROP_2019.pdf" target="_blank">RoP 2019</a></li>
+<li><a href="Economic_Survey_2025-26.pdf" target="_blank">Economic Survey 2025-26</a></li>
+<li><a href="Handbook_Statistics_Indian_States_2024-25.pdf" target="_blank">Handbook of Statistics of Indian States 2024-25</a></li>
+<li><a href="16 FC Volume I.pdf" target="_blank">16 Finance Commission Volume I</a></li>
+<li><a href="16 FC Volume II.pdf" target="_blank">16 Finance Commission Volume II</a></li>
+<li><a href="Economic_Survey_Manipur_2022-23.pdf" target="_blank">Economic Survey Manipur 2022-23</a></li>
+<li><a href="Economic_Survey_Manipur_2023-24.pdf" target="_blank">Economic Survey Manipur 2023-24</a></li>
+</ul>
+</div>
 
-        <!-- MIDDLE COLUMN (Folders) -->
-        <div class="public-middle">
+<!-- MIDDLE COLUMN (All Folders Complete) -->
+<div class="public-middle">
 
-            <details>
-                <summary>State Finances 2025-26</summary>
-                <ul>
-                    <li><a href="State_Finances_2025-26/Dashbord_ Master data 2022-23NoEdit(A1.csv)">Non-Debt Capital Receipts</a></li>
-                    <li><a href="State_Finances_2025-26/Dashbord_ Master data 2022-23NoEdit(A2_Rev Receipt).csv)">Revenue Receipts</a></li>
-                    <li><a href="State_Finances_2025-26/Dashbord_ Master data 2022-23NoEdit(A3_Cap Receipts Components).csv)">Capital Receipts</a></li>
-                    <li><a href="State_Finances_2025-26/Dashbord_ Master data 2022-23NoEdit(A4_Revex & CapexIncludingLA).csv">Revenue & Capex</a></li>
-                </ul>
-            </details>
+<details>
+<summary>State Finances 2025-26</summary>
+<ul>
+<li><a href="State_Finances_2025-26/Dashbord_ Master data 2022-23NoEdit(A1.csv)">Non-Debt Capital Receipts</a></li>
+<li><a href="State_Finances_2025-26/Dashbord_ Master data 2022-23NoEdit(A2_Rev Receipt).csv)">Revenue Receipts</a></li>
+<li><a href="State_Finances_2025-26/Dashbord_ Master data 2022-23NoEdit(A3_Cap Receipts Components).csv)">Capital Receipts</a></li>
+<li><a href="State_Finances_2025-26/Dashbord_ Master data 2022-23NoEdit(A4_Revex & CapexIncludingLA).csv">Rev & Capex</a></li>
+<li><a href="State_Finances_2025-26/Dashbord_ Master data 2022-23NoEdit(A5_Committed Exp).csv">Committed Expenditure</a></li>
+<li><a href="State_Finances_2025-26/Dashbord_ Master data 2022-23NoEdit(A6_Sectoral RevExp).csv">Sectoral Revex</a></li>
+<li><a href="State_Finances_2025-26/Dashbord_ Master data 2022-23NoEdit(A7_SectoralCapexWithLA).csv">Sectoral Capex</a></li>
+<li><a href="State_Finances_2025-26/Dashbord_ Master data 2022-23NoEdit(A8_RevEx Maj Functions).csv">Revex Major Functions</a></li>
+<li><a href="State_Finances_2025-26/Dashbord_ Master data 2022-23NoEdit(A9_Capex Major LA Added).csv">Capex Major</a></li>
+<li><a href="State_Finances_2025-26/Dashbord_ Master data 2022-23NoEdit(A10_object head wi).csv">Object Head</a></li>
+<li><a href="State_Finances_2025-26/Dashbord_ Master data 2022-23NoEdit(A11_PD&PAL).csv">Public Debt & PAL</a></li>
+<li><a href="State_Finances_2025-26/Dashbord_ Master data 2022-23NoEdit(A12_FRBM_FA).csv">FRBM</a></li>
+<li><a href="State_Finances_2025-26/Final Annexures for PSF 2023-2024(A8_ Total_Secotral_Exp).csv">Total Sectoral Expenditure</a></li>
+</ul>
+</details>
 
-            <details>
-                <summary>OM FD(PIC)</summary>
-                <ul>
-                    <li><a href="OM_FD(PIC)/UPS_Notification_Manipur.pdf" target="_blank">UPS Notification</a></li>
-                    <li><a href="OM_FD(PIC)/DA_17_October_2025.pdf" target="_blank">3% DA Increase 2025</a></li>
-                </ul>
-            </details>
+<details>
+<summary>OM FD(PIC)</summary>
+<ul>
+<li><a href="OM_FD(PIC)/UPS_Notification_Manipur.pdf" target="_blank">UPS Notification</a></li>
+<li><a href="OM_FD(PIC)/DA_17_October_2025.pdf" target="_blank">3% DA Increase 2025</a></li>
+</ul>
+</details>
 
-            <details>
-                <summary>OM FD(Resources)</summary>
-                <ul>
-                    <li><a href="SNA_SPARSH/OM_SNA_SPARSH_MANIPUR.pdf" target="_blank">OM SNA SPARSH</a></li>
-                    <li><a href="SNA_SPARSH/SNA_SPARSH_Jan_2026.ppt" target="_blank">SNA SPARSH PPT</a></li>
-                    <li><a href="SNA_SPARSH/OM_dated_13_07_2023_Just_in_Time_release_of_CSS_funds_through_e_kuber_platform_of_RBI.pdf" target="_blank">OM PFMS Just in Time</a></li>
-                </ul>
-            </details>
+<details>
+<summary>OM FD(Resources)</summary>
+<ul>
+<li><a href="SNA_SPARSH/OM_SNA_SPARSH_MANIPUR.pdf" target="_blank">OM SNA SPARSH</a></li>
+<li><a href="SNA_SPARSH/SNA_SPARSH_Jan_2026.ppt" target="_blank">SNA SPARSH PPT</a></li>
+<li><a href="SNA_SPARSH/OM_dated_13_07_2023_Just_in_Time_release_of_CSS_funds_through_e_kuber_platform_of_RBI.pdf" target="_blank">OM PFMS Just in Time</a></li>
+</ul>
+</details>
 
-            <details>
-                <summary>OM FD(Budget)</summary>
-                <ul>
-                    <li><a href="FD_Budget/OM_Online_Pension_Portal_December_2025.pdf" target="_blank">Online Pension Portal</a></li>
-                </ul>
-            </details>
+<details>
+<summary>OM FD(Budget)</summary>
+<ul>
+<li><a href="FD_Budget/OM_Online_Pension_Portal_December_2025.pdf" target="_blank">Online Pension Portal</a></li>
+</ul>
+</details>
 
-            <details>
-                <summary>OM FD(Expenditure)</summary>
-                <ul>
-                    <li><a href="FD_Expenditure/Guidance_RFP_PPP.pdf" target="_blank">Guidance RFP on PPP</a></li>
-                </ul>
-            </details>
+<details>
+<summary>OM FD(Expenditure)</summary>
+<ul>
+<li><a href="FD_Expenditure/Guidance_RFP_PPP.pdf" target="_blank">Guidance RFP on PPP</a></li>
+</ul>
+</details>
 
-        </div>
+</div>
 
-        <!-- RIGHT COLUMN -->
-        <div class="public-right">
-            <h3>Weblinks</h3>
-            <ul>
-                <li>
-                    <a href="https://ebudgetmanipur.mn.gov.in/" target="_blank">
-                        eBudget Manipur
-                    </a>
-                </li>
-            </ul>
-        </div>
+<!-- RIGHT COLUMN -->
+<div class="public-right">
+<h3>Weblinks</h3>
+<ul>
+<li><a href="https://ebudgetmanipur.mn.gov.in/" target="_blank">eBudget Manipur</a></li>
+</ul>
+</div>
 
-    </div>
+</div>
 
-    <h2>Contact</h2>
-    <div class="contact">
-        <a href="mailto:w.m.chenglei@gmail.com">Email</a>
-        <a href="https://www.linkedin.com/in/wairokpam-malemnganba-chenglei-9b640862" target="_blank">LinkedIn</a>
-        <a href="https://calendly.com/wmchenglei" target="_blank">Calendly</a>
-    </div>
+<h2>Contact</h2>
+<div class="contact">
+<a href="mailto:w.m.chenglei@gmail.com">Email</a>
+<a href="https://www.linkedin.com/in/wairokpam-malemnganba-chenglei-9b640862" target="_blank">LinkedIn</a>
+<a href="https://calendly.com/wmchenglei" target="_blank">Calendly</a>
+</div>
 
 </body>
 </html>

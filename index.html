@@ -127,105 +127,105 @@
 </div>
 
 <!-- Public Documents -->
+    <style>
+.public-layout {
+  display: flex;
+  gap: 40px;
+  align-items: flex-start;
+}
+
+.public-left {
+  flex: 2;   /* takes more width */
+}
+
+.public-right {
+  flex: 1;   /* folders column */
+}
+
+.public-right details {
+  margin-bottom: 15px;
+  background: #f4f4f4;
+  padding: 10px;
+  border-radius: 6px;
+}
+
+@media (max-width: 768px) {
+  .public-layout {
+    flex-direction: column; /* stack on mobile */
+  }
+}
+</style>
+<div class="section">
 <div class="section">
   <h2>Public Documents</h2>
-  <ul>
-    <!-- Existing PDFs -->
-    <li><a href="ROP_2019.pdf" target="_blank">RoP 2019</a></li>
-    <li><a href="Economic_Survey_2025-26" target="_blank">Economic Survey 2025-26</a></li>   
-    <li><a href="Handbook_Statistics_Indian_States_2024-25" target="_blank">Handbook of Statistics of Indian States 2024-25</a></li>  
-    <li><a href="16 FC Volume I.pdf" target="_blank">16 Finance Commission Volume I</a></li>
-    <li><a href="16 FC Volume II.pdf" target="_blank">16 Finance Commission Volume II</a></li>
-    <li><a href="Economic_Survey_Manipur_2022-23.pdf" target="_blank">Economic Survey Manipur 2022-23</a></li>
-    <li><a href="Economic_Survey_Manipur_2023-24.pdf" target="_blank">Economic Survey Manipur 2023-24</a></li>
-    <li><a href="Guidance_RFP_PPP.pdf" target="_blank">Model Guidance RFP for PPP</a></li>
-  </ul>
 
-  <!-- State Finances 2025-26 Folder -->
-  <details>
-    <summary><strong>State Finances 2025-26</strong></summary>
-    <ul>
-      <li><a href="State_Finances_2025-26/Dashbord_ Master data 2022-23NoEdit(A1.csv)">Non-Debt Capital Receipts of the States</a></li>
-      <li><a href="State_Finances_2025-26/Dashbord_ Master data 2022-23NoEdit(A2_Rev Receipt).csv">Revenue Receipts Components</a></li>
-      <li><a href="State_Finances_2025-26/Dashbord_ Master data 2022-23NoEdit(A3_Cap Receipts Components).csv">Capital Receipts Components</a></li>
-      <li><a href="State_Finances_2025-26/Dashbord_ Master data 2022-23NoEdit(A4_Revex & CapexIncludingLA).csv">Revex Capex</a></li>
-      <li><a href="State_Finances_2025-26/Dashbord_ Master data 2022-23NoEdit(A5_Committed Exp).csv">Committed Expdt</a></li>
-      <li><a href="State_Finances_2025-26/Dashbord_ Master data 2022-23NoEdit(A6_Sectoral RevExp).csv">Sectoral Revex</a></li>
-      <li><a href="State_Finances_2025-26/Dashbord_ Master data 2022-23NoEdit(A7_SectoralCapexWithLA).csv">Sectoral Capex</a></li>
-      <li><a href="State_Finances_2025-26/Dashbord_ Master data 2022-23NoEdit(A8_RevEx Maj Functions).csv">Revex Major Functions</a></li>
-      <li><a href="State_Finances_2025-26/Dashbord_ Master data 2022-23NoEdit(A9_Capex Major LA Added).csv">Capex Major</a></li>
-      <li><a href="State_Finances_2025-26/Dashbord_ Master data 2022-23NoEdit(A10_object head wi).csv">Object Head</a></li>
-      <li><a href="State_Finances_2025-26/Dashbord_ Master data 2022-23NoEdit(A11_PD&PAL).csv">Public Debt & Public Account Liability</a></li>
-      <li><a href="State_Finances_2025-26/Dashbord_ Master data 2022-23NoEdit(A12_FRBM_FA).csv">FRBM</a></li>
-      <li><a href="State_Finances_2025-26/Dashbord_ Master data 2022-23NoEdit(A1_Rev Receipt).csv">Revenue Receipt</a></li>
-      <li><a href="State_Finances_2025-26/Dashbord_ Master data 2022-23NoEdit(A2_Rev Receipt Components).csv">Revenue Receipt Components</a></li>
-      <li><a href="State_Finances_2025-26/Final Annexures for PSF 2023-2024(A8_ Total_Secotral_Exp).csv">Total Sectoral Expdt 2023-24</a></li>
-    </ul>
-  </details>
+  <div class="public-layout">
 
-<!-- OM FD(PIC) Folder -->
-<details>
-  <summary><strong>OM FD(PIC)</strong></summary>
-  <ul>
-    <li>
-      <a href="OM_FD(PIC)/UPS_Notification_Manipur.pdf" target="_blank">
-        UPS Notification Manipur
-      </a>
-    </li>
-    <li>
-      <a href="OM_FD(PIC)/DA_17_October_2025.pdf" target="_blank">
-        3% DA Increase 2025
-      </a>
-    </li>
-  </ul>
-</details>
+    <!-- LEFT SIDE: Main Documents -->
+    <div class="public-left">
+      <ul>
+        <li><a href="ROP_2019.pdf" target="_blank">RoP 2019</a></li>
+        <li><a href="Economic_Survey_2025-26" target="_blank">Economic Survey 2025-26</a></li>
+        <li><a href="Handbook_Statistics_Indian_States_2024-25" target="_blank">Handbook of Statistics of Indian States 2024-25</a></li>
+        <li><a href="16 FC Volume I.pdf" target="_blank">16 Finance Commission Volume I</a></li>
+        <li><a href="16 FC Volume II.pdf" target="_blank">16 Finance Commission Volume II</a></li>
+        <li><a href="Economic_Survey_Manipur_2022-23.pdf" target="_blank">Economic Survey Manipur 2022-23</a></li>
+        <li><a href="Economic_Survey_Manipur_2023-24.pdf" target="_blank">Economic Survey Manipur 2023-24</a></li>
+        <li><a href="Guidance_RFP_PPP.pdf" target="_blank">Model Guidance RFP for PPP</a></li>
+      </ul>
+    </div>
 
-<!-- OM FD(resources) Folder -->
-<details>
-  <summary><strong>OM FD(Resources)</strong></summary>
-  <ul>
-       <li>
-      <a href="SNA_SPARSH/OM_dated_13_07_2023_Just_in_Time_release_of_CSS_funds_through_e_kuber_platform_of_RBI.pdf" target="_blank">
-        PFMS Just In Time CSS
-      </a>
-    </li>
- <li>
-      <a href="SNA_SPARSH/OM_SNA_SPARSH_MANIPUR.pdf" target="_blank">
-        OM SNA SPARSH Manipur
-      </a>
-    </li>     
-      <li>
-      <a href="SNA_SPARSH/SNA_SPARSH_Jan_2026.pptx" target="_blank">
-        SNA SPARSH PPT 2026 
-      </a>
-    </li>
-  </ul>
-</details>
+    <!-- RIGHT SIDE: Folders -->
+    <div class="public-right">
 
-    <!-- OM FD(Budget) Folder -->
-<details>
-  <summary><strong>OM FD(Budget)</strong></summary>
-  <ul>
-       <li>
-      <a href="FD_Budget/OM_Online_Pension_Portal_December_2025.pdf" target="_blank">
-        OM Online Pension Portal
-      </a>
-    </li>
-  </ul>
-</details>
-    <!-- OM FD(Expenditure) Folder -->
-<details>
-  <summary><strong>OM FD(Expenditure)</strong></summary>
-  <ul>
-       <li>
-      <a href="FD_Expenditure/Guidance_RFP_PPP.pdf" target="_blank">
-        OM Guidance RFP on PPP
-      </a>
-    </li>
-  </ul>
-</details>  
+      <details>
+        <summary><strong>State Finances 2025-26</strong></summary>
+        <ul>
+          <li><a href="State_Finances_2025-26/Dashbord_ Master data 2022-23NoEdit(A1.csv)">Non-Debt Capital Receipts</a></li>
+          <li><a href="State_Finances_2025-26/Dashbord_ Master data 2022-23NoEdit(A2_Rev Receipt).csv">Revenue Receipts</a></li>
+          <li><a href="State_Finances_2025-26/Dashbord_ Master data 2022-23NoEdit(A3_Cap Receipts Components).csv">Capital Receipts</a></li>
+        </ul>
+      </details>
 
-<a href="https://ebudgetmanipur.mn.gov.in/" target="_blank">Visit ebudgetmanipur</a>
+      <details>
+        <summary><strong>OM FD(PIC)</strong></summary>
+        <ul>
+          <li><a href="OM_FD(PIC)/UPS_Notification_Manipur.pdf" target="_blank">UPS Notification</a></li>
+          <li><a href="OM_FD(PIC)/DA_17_October_2025.pdf" target="_blank">3% DA Increase 2025</a></li>
+        </ul>
+      </details>
+
+      <details>
+        <summary><strong>OM FD(Resources)</strong></summary>
+        <ul>
+          <li><a href="SNA_SPARSH/OM_SNA_SPARSH_MANIPUR.pdf" target="_blank">OM SNA SPARSH</a></li>
+        </ul>
+      </details>
+
+      <details>
+        <summary><strong>OM FD(Budget)</strong></summary>
+        <ul>
+          <li><a href="FD_Budget/OM_Online_Pension_Portal_December_2025.pdf" target="_blank">Online Pension Portal</a></li>
+        </ul>
+      </details>
+
+      <details>
+        <summary><strong>OM FD(Expenditure)</strong></summary>
+        <ul>
+          <li><a href="FD_Expenditure/Guidance_RFP_PPP.pdf" target="_blank">Guidance RFP on PPP</a></li>
+        </ul>
+      </details>
+
+    </div>
+
+  </div>
+
+  <br>
+  <a href="https://ebudgetmanipur.mn.gov.in/" target="_blank">
+    Visit ebudgetmanipur
+  </a>
+
+</div>
     
 <!-- Contact -->
 <div class="section">
